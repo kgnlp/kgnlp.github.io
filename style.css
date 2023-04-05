@@ -51,6 +51,7 @@ header > h1 {
   font-weight: normal;
   font-size: 8vmin;
   animation: ease-out scale_from_left 2.5s 0s;
+  margin: 2vmin;
 }
 
 @media only screen and (max-aspect-ratio: 4 / 3) {
@@ -61,6 +62,7 @@ header > h1 {
 }
 
 header {
+  background: #EFF0EF;
   padding: 0 10vmin;
   display: flex;
   align-items: center;
@@ -68,4 +70,6 @@ header {
   border-bottom: 1vmin solid #0B4F6C;
   margin-bottom: 5vmin;
   box-shadow: 0 0 1.5vmax 0.25vmax #000000;
+  position: sticky;
+  top: 0;
 }
