@@ -67,4 +67,5 @@ header {
   justify-content: center;
   border-bottom: 1vmin solid #0B4F6C;
   margin-bottom: 5vmin;
+  box-shadow: 0 0 1.5vmax 0.25vmax #000000;
 }
