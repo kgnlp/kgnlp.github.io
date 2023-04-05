@@ -4,6 +4,30 @@ body {
   background: #EFF0EF;
 }
 
+.links {
+  display: block;
+  width: 100%;
+  height: 2.5em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.link {
+  text-align: center;
+  width: 16ch;
+  background: #8CBEC1;
+  text-decoration: none;
+  color: #0B4F6C;
+  padding: 0.2em;
+}
+
+.link:hover {
+  color: #EFF0EF;
+  background: #40798C;
+  transition: background .25s, color .25s;
+}
+
 .highlight {
   color: #8CBEC1;
 }
@@ -46,12 +70,26 @@ h1 {
   }
 }
 
-header > h1 {
+.main-header {
+  font-family: sans-serif;
   color: #222222;
   font-weight: normal;
   font-size: 8vmin;
   animation: ease-out scale_from_left 2.5s 0s;
   margin: 2vmin;
+}
+
+.first-name {
+  background: #0B4F6C;
+  color: #EFF0EF;
+}
+
+.last-name {
+  color: #0B4F6C;
+}
+
+.first-name, .last-name {
+  padding: 0 0.25ch;
 }
 
 @media only screen and (max-aspect-ratio: 4 / 3) {
@@ -65,6 +103,7 @@ header {
   background: #EFF0EF;
   padding: 0 10vmin;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   border-bottom: 1vmin solid #0B4F6C;
