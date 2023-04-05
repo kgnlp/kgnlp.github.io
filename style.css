@@ -41,7 +41,7 @@ body {
   font-size: 2.5vmin;
   font-family: sans-serif;
   margin: 0 15vw;
-  padding: 2vw 2.5vw;
+  padding: 1vw 1.75vw;
 }
 
 h1 {
@@ -107,7 +107,7 @@ header {
   align-items: center;
   justify-content: center;
   border-bottom: 1vmin solid #0B4F6C;
-  margin-bottom: 5vmin;
+  margin-bottom: 0.25vmax;
   box-shadow: 0 0 1.5vmax 0.25vmax #000000;
   position: sticky;
   top: 0;
